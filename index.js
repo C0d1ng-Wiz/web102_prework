@@ -104,6 +104,7 @@ raisedCard.innerHTML = pledgedDisplay;
 // grab number of games card and set its inner HTML
 const gamesCard = document.getElementById("num-games");
 
+const numGames = GAMES_JSON.length;
 
 /*************************************************************************************
  * Challenge 5: Add functions to filter the funded and unfunded games
