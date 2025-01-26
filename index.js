@@ -49,7 +49,8 @@ function addGamesToPage(games) {
            <p>${gameName}</p>
            <p>${gameDesc}</p>
            `;
-        
+        newDiv.innerHTML = gameDisplay;
+
         // append the game to the games-container
     }
 }
