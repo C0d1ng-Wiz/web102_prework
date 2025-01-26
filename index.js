@@ -52,6 +52,7 @@ function addGamesToPage(games) {
         newDiv.innerHTML = gameDisplay;
 
         // append the game to the games-container
+        gamesContainer.append(newDiv);
     }
 }
 
