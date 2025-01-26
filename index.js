@@ -110,6 +110,8 @@ const numGamesDisplay = `
       <p>${numGames}</p>
       `
 
+gamesCard.innerHTML = numGamesDisplay;
+
 /*************************************************************************************
  * Challenge 5: Add functions to filter the funded and unfunded games
  * total number of contributions, amount donated, and number of games on the site.
