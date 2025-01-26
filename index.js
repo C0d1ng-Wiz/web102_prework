@@ -41,7 +41,9 @@ function addGamesToPage(games) {
         // about each game
         // TIP: if your images are not displaying, make sure there is space
         // between the end of the src attribute and the end of the tag ("/>")
-
+        let gameImg = games[i]["img"];
+        let gameName = games[i]["name"];
+        let gameDesc = games[i]["description"];
 
         // append the game to the games-container
     }
