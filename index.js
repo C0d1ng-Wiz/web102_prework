@@ -86,6 +86,10 @@ contributionsCard.innerHTML = backersDisplay;
 // grab the amount raised card, then use reduce() to find the total amount raised
 const raisedCard = document.getElementById("total-raised");
 
+let pledgedReduction = GAMES_JSON.reduce((acc, current) => {
+    return acc + current["pledged"];
+}, 0);
+
 // set inner HTML using template literal
 
 
