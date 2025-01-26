@@ -92,6 +92,14 @@ let pledgedReduction = GAMES_JSON.reduce((acc, current) => {
 
 // set inner HTML using template literal
 
+pledgedReduction=pledgedReduction.toLocaleString('en-US');
+
+const pledgedDisplay = `
+      <p>$${pledgedReduction}</p>
+      `;
+
+raisedCard.innerHTML = pledgedDisplay;
+
 
 // grab number of games card and set its inner HTML
 const gamesCard = document.getElementById("num-games");
