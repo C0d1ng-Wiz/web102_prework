@@ -44,7 +44,12 @@ function addGamesToPage(games) {
         let gameImg = games[i]["img"];
         let gameName = games[i]["name"];
         let gameDesc = games[i]["description"];
-
+        let gameDisplay = `
+           <img class="game-img" src=${gameImg}>
+           <p>${gameName}</p>
+           <p>${gameDesc}</p>
+           `;
+        
         // append the game to the games-container
     }
 }
