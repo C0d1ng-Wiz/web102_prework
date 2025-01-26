@@ -106,6 +106,10 @@ const gamesCard = document.getElementById("num-games");
 
 const numGames = GAMES_JSON.length;
 
+const numGamesDisplay = `
+      <p>${numGames}</p>
+      `
+
 /*************************************************************************************
  * Challenge 5: Add functions to filter the funded and unfunded games
  * total number of contributions, amount donated, and number of games on the site.
