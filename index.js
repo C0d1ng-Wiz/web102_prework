@@ -179,7 +179,13 @@ let totalUnfunded = GAMES_JSON.filter((game) => {
 let numUnfunded = totalUnfunded.length;
 
 // create a string that explains the number of unfunded games using the ternary operator
+let amountFunded = totalUnfunded.reduce((acc, current) => {
+    return acc + current["pledged"];
+}, 0)
 
+let displayStr = `Currently, $${amountFunded.toLocaleString('en-US')} has been raised for
+${GAMES_JSON.length} games! Only ${numUnfunded} ${totalUnfunded ===1 ? "game remains" : "games remain"} 
+unfunded, and we need your help to achieve our goal of publishing all our games.`;
 
 // create a new DOM element containing the template string and append it to the description container
 
