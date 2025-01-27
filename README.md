@@ -1,8 +1,8 @@
-# WEB102 Prework - SeaMonsterGames.com
+# WEB102 Prework - SeaMonsterCrowdfunding.com
 
 Submitted by: Balkan Acar
 
-SeaMonsterGames.com is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+SeaMonsterCrowdfunding.com is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
 Time spent: **X** hours spent in total
 
