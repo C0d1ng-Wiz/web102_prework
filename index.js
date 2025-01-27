@@ -188,6 +188,9 @@ ${GAMES_JSON.length} games! Only ${numUnfunded} ${totalUnfunded ===1 ? "game rem
 unfunded, and we need your help to achieve our goal of publishing all our games.`;
 
 // create a new DOM element containing the template string and append it to the description container
+let newP = document.createElement("p");
+newP.innerHTML = displayStr;
+descriptionContainer.append(newP);
 
 /************************************************************************************
  * Challenge 7: Select & display the top 2 games
