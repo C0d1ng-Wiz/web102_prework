@@ -179,7 +179,7 @@ let totalUnfunded = GAMES_JSON.filter((game) => {
 let numUnfunded = totalUnfunded.length;
 
 // create a string that explains the number of unfunded games using the ternary operator
-let amountFunded = totalUnfunded.reduce((acc, current) => {
+let amountFunded = GAMES_JSON.reduce((acc, current) => {
     return acc + current["pledged"];
 }, 0)
 
