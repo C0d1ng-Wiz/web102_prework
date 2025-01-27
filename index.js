@@ -142,7 +142,7 @@ function filterFundedOnly() {
     });
 
     // use the function we previously created to add unfunded games to the DOM
-
+    addGamesToPage(fundedGames);
 }
 
 // show all games
