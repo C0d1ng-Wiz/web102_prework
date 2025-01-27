@@ -211,3 +211,6 @@ const topFirstName = document.createElement("p");
 topFirstName.innerHTML = firstBest["name"];
 firstGameContainer.append(topFirstName);
 // do the same for the runner up item
+const topSecondName = document.createElement("p");
+topSecondName.innerHTML =secondBest["name"];
+secondGameContainer.append(topSecondName);
